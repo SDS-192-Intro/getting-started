@@ -28,9 +28,12 @@ Below are instructions for setting up our course environment. It's important tha
 
 <p><a href="https://vimeo.com/511803103">Store Personal Access Token to Connect RStudio and GitHub</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-9. Open the [Getting Started Assignment URL]() listed in Moodle. This will copy a GitHub repo into your GitHub account. 
-10. Copy the link to the GitHub Repo that was just created to your clipboard. It should look something like https://github.com/SDS-192-Intro/getting-started/YOUR-USER-NAME
-11. Create a project in RStudio from this GitHub repo by following the instructions starting at 26 seconds of this video:
+9. In Moodle, scroll to the bottom of our course page to find the Getting Started Assignment link. Click this link to enter our GitHub classroom. This will copy a GitHub template repo into your GitHub account. It might take a few moments. 
+10. Once the repo is created, copy the link to the repo that was just created to your clipboard. It should look something like https://github.com/SDS-192-Intro/getting-started/YOUR-USER-NAME
+
+![GitHub URL](images/github_url.png)
+
+12. Create a project in RStudio from this GitHub repo by following the instructions starting at 26 seconds of this video:
 
 <p><a href="https://vimeo.com/511804881">How to Connect RStudio Projects with GitHub Repositories: GitHub First</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
