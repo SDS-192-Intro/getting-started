@@ -15,29 +15,36 @@ Below are instructions for setting up our course environment. It's important tha
 
 <p><a href="https://vimeo.com/511798611">Verify Git Installation</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-5. If git is not installed, leave your break-out room and come talk to me. 
-6. Edit your git config by following these instructions: 
+5. If git is not installed, leave your break-out room and come talk to me.
+6. In the last step you clicked the 'Terminal' tab at the bottom of your screen. Go to that same section of your screen and click the 'Console' tab.
+7. Enter the following into your console:
+
+```
+install.packages("usethis")
+```
+
+8. Edit your git config by following these instructions: 
 
 <p><a href="https://vimeo.com/511798861">Edit gitconfig file</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-7. Create a personal access token by following these instructions: 
+9. Create a personal access token by following these instructions: 
 
 <p><a href="https://vimeo.com/511801645">Create a Personal Access Token (PAT) on GitHub</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-8. Store your personal access token by following these instructions: 
+10. Store your personal access token by following these instructions: 
 
 <p><a href="https://vimeo.com/511803103">Store Personal Access Token to Connect RStudio and GitHub</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-9. In Moodle, scroll to the bottom of our course page to find the Getting Started Assignment link. Click this link to enter our GitHub classroom. This will copy a GitHub template repo into your GitHub account. It might take a few moments. 
-10. Once the repo is created, copy the link to the repo that was just created to your clipboard. It should look something like https://github.com/SDS-192-Intro/getting-started/YOUR-USER-NAME
+11. In Moodle, scroll to the bottom of our course page to find the Getting Started Assignment link. Click this link to enter our GitHub classroom. This will copy a GitHub template repo into your GitHub account. It might take a few moments. 
+12. Once the repo is created, copy the link to the repo that was just created to your clipboard. It should look something like https://github.com/SDS-192-Intro/getting-started/YOUR-USER-NAME
 
 ![GitHub URL](images/github_url.png)
 
-12. Create a project in RStudio from this GitHub repo by following the instructions starting at 26 seconds of this video:
+13. Create a project in RStudio from this GitHub repo by following the instructions starting at 26 seconds of this video:
 
 <p><a href="https://vimeo.com/511804881">How to Connect RStudio Projects with GitHub Repositories: GitHub First</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-12. Install the rmarkdown package in RStudio by entering the following lines of code in the Console Pane of RStudio (lower left hand corner on initial install).  
+14. Install the rmarkdown package in RStudio by entering the following lines of code in the Console Pane of RStudio (lower left hand corner on initial install).  
 
 ```
 install.packages("rmarkdown")
@@ -46,12 +53,12 @@ library(rmarkdown)
 
 ![RStudio Panels](images/rstudio_panels.png)
 
-13. On the initial install, the Files tab will be in the lower right hand corner of RStudio. Open the getting-started.Rmd file. Follow instructions in the file. 
-14. When the file tells you to commit your code, follow the instructions in this video starting at 14 seconds: 
+15. On the initial install, the Files tab will be in the lower right hand corner of RStudio. Open the getting-started.Rmd file. Follow instructions in the file. 
+16. When the file tells you to commit your code, follow the instructions in this video starting at 14 seconds: 
 
 <p><a href="https://vimeo.com/511800674">Make a Commit and View More History</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-15. Push your code to GitHub.com by following the instructions in this video starting at 27 seconds:
+17. Push your code to GitHub.com by following the instructions in this video starting at 27 seconds:
 
 <p><a href="https://vimeo.com/511805399">General Workflow: Push</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
