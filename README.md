@@ -12,7 +12,7 @@ Below are instructions for setting up our course environment. It's important tha
 2. Follow [these instructions](https://rstudio-education.github.io/hopr/starting.html) to download and install R and RStudio. Be sure to install R first and RStudio second. If you've already installed both, skip this step. 
 3. Open RStudio.
 
-** CONGRATULATIONS! You've installed all of the software needed for this course. Now onto configuration.** 
+**CONGRATULATIONS! You've installed all of the software needed for this course. Now onto configuration.** 
 
 4. Follow instructions in this video to ensure git is installed: 
 
@@ -44,7 +44,7 @@ use_git_config(user.name = "USERNAMEHERE", user.email = "EMAILHERE")
 
 <p><a href="https://vimeo.com/511803103">Store Personal Access Token to Connect RStudio and GitHub</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-** CONGRATULATIONS! You've configured GitHub to connect with RStudio! Now onto assignment submission practice.** 
+**CONGRATULATIONS! You've configured GitHub to connect with RStudio! Now onto assignment submission practice.** 
 
 11. In Moodle, scroll to the bottom of our course page to find the Getting Started Assignment link. Click this link to enter our GitHub classroom. This will copy a GitHub template repo into your GitHub account. It might take a few moments. 
 12. Once the repo is created, copy the link to the repo that was just created to your clipboard. It should look something like https://github.com/SDS-192-Intro/getting-started/YOUR-USER-NAME
@@ -73,3 +73,4 @@ library(rmarkdown)
 
 <p><a href="https://vimeo.com/511805399">General Workflow: Push</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+**CONGRATULATIONS! You've completed our course infrastructure set-up!** 
