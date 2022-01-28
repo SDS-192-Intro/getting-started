@@ -145,13 +145,13 @@ Switch to the Terminal tab in the bottom left hand corner of RStudio and enter t
 
 Then try again. 
 
-### Step 7, 10, etc. 
+### Step 7/10, etc. 
 
 #### I'm getting an error message that RStudio can't find Git.
 
 Following the instructions at this link: https://happygitwithr.com/rstudio-see-git to tell RStudio where to find git. 
 
-### Step 
+### Step 10
 
 I'm getting the following error:
 
