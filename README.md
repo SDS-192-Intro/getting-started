@@ -24,7 +24,7 @@ Below are instructions for setting up our course environment. It's important tha
 
 ```
 install.packages("usethis")
-library (usethis)
+library(usethis)
 ```
 After you've entered this, you should copy and paste the following into your console, replacing USERNAMEHERE with your GitHub username and EMAILHERE with your GitHub email:
 
