@@ -8,32 +8,43 @@ Below are instructions for setting up our course environment. It's important tha
 
 **Don't worry if you don't know what certain terms mean at this point. We will be going over things like the difference between R and RStudio, what a package is, what it means to commit code, and what a markdown file is a little later in the semester.** I just believe it will be easier to follow along with me in learning those things if you can follow along on your own computers. That's why we're taking this step to get things up and running so earlier in the semester. 
 
-1. Follow the instructions in [chapter 4](https://happygitwithr.com/github-acct.html) of Happy Git and GitHub for the useR to create a GitHub account. If you already have a GitHub account, skip this step. 
+1. Follow the instructions in [chapter 4](https://happygitwithr.com/github-acct.html) of *Happy Git and GitHub for the useR* to create a GitHub account. If you already have a GitHub account, skip this step. 
 2. Follow [these instructions](https://rstudio-education.github.io/hopr/starting.html) to download and install R and RStudio. Be sure to install R first and RStudio second. If you've already installed both, skip this step. 
 3. Open RStudio.
+
+** CONGRATULATIONS! You've installed all of the software needed for this course. Now onto configuration.** 
+
 4. Follow instructions in this video to ensure git is installed: 
 
 <p><a href="https://vimeo.com/511798611">Verify Git Installation</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 5. If git is not installed, leave your break-out room and come talk to me.
 6. In the last step you clicked the 'Terminal' tab at the bottom of your screen. Go to that same section of your screen and click the 'Console' tab.
-7. Enter the following into your console:
+7. If you are configuring git for the first time (most of you will be), copy and paste the following into your console:
 
 ```
 install.packages("usethis")
+library (usethis)
+```
+After you've entered this, you should copy and paste the following into your console, replacing USERNAMEHERE with your GitHub username and EMAILHERE with your GitHub email:
+
+```
+use_git_config(user.name = "USERNAMEHERE", user.email = "EMAILHERE")
 ```
 
-8. Edit your git config by following these instructions: 
+8. If you've configured git on your computer before, you can edit your git config by following these instructions: 
 
 <p><a href="https://vimeo.com/511798861">Edit gitconfig file</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-9. Create a personal access token by following these instructions: 
+9. Create a personal access token in GitHub by following these instructions. **Set the expiration date to 120 days from now**: 
 
 <p><a href="https://vimeo.com/511801645">Create a Personal Access Token (PAT) on GitHub</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 10. Store your personal access token by following these instructions: 
 
 <p><a href="https://vimeo.com/511803103">Store Personal Access Token to Connect RStudio and GitHub</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+** CONGRATULATIONS! You've configured GitHub to connect with RStudio! Now onto assignment submission practice.** 
 
 11. In Moodle, scroll to the bottom of our course page to find the Getting Started Assignment link. Click this link to enter our GitHub classroom. This will copy a GitHub template repo into your GitHub account. It might take a few moments. 
 12. Once the repo is created, copy the link to the repo that was just created to your clipboard. It should look something like https://github.com/SDS-192-Intro/getting-started/YOUR-USER-NAME
