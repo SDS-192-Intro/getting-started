@@ -171,3 +171,30 @@ edit_git_config
 This will open your config file. Check to make sure you don't have extra quotation marks in your user name or email address. It should look something like this. 
 
 ![RStudio Icon](images/config_file.png)
+
+### Step 13
+
+#### When I try to create a new project, I'm getting the error:
+
+```
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+```
+
+This means that you likely set up some git credentials on your computer in the past. GitHub used to identify you by a password, but now they use the special token you generated in an earlier step. To fix this, you can enter the following into your console:
+
+```
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_set()
+```
+You'll see the following message:
+
+```
+1: Keep these credentials
+2: Replace these credentials
+3: See the password / token
+```
+
+Click 2. Then enter the personal access token you created in step 9. You should be able to create a project after this. 
+
+
