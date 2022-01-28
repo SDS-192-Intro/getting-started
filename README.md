@@ -73,7 +73,10 @@ library(rmarkdown)
 
 <p><a href="https://vimeo.com/511805399">General Workflow: Push</a> from <a href="https://vimeo.com/user95475944">David Keyes</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-<<<<<<< HEAD
+
+**CONGRATULATIONS! You've completed our course infrastructure set-up!** 
+
+---
 ## Troubleshooting Common Issues
 
 Here I will list common issues that folks faced at different steps of getting our course infrastructure set-up and how they fixed them:
@@ -94,9 +97,9 @@ This means that you likely installed RStudio but not R. Check back in on the ins
 
 #### When I try to open RStudio, I’m not seeing the screen that appears in David Keyes's video in step 4. 
 
-![RStudio Icon](images/rstudio.png)
-
 You are probably trying to open R rather than RStudio. Make sure you click on this icon:
+
+![RStudio Icon](images/rstudio.png)
 
 …and not this one:
 
@@ -123,7 +126,7 @@ Be sure to follow the instructions for your specific operating system. After you
 
 #### I’m getting an error message when trying to install the "usethis" package. 
 
-Try copying and pasting the `install.packages("usethis"`) code into your console first and click enter. You will be asked "Do you want to install from sources the packages which need compilation? (Yes/no/cancel)", and you can type 'yes'. After that, a bunch of lines of code will run with red font. Once this is done, copy and paste the `library(usethis)` line into your Console and click enter. 
+Try copying and pasting the `install.packages("usethis")` code into your console first and click enter. You will be asked "Do you want to install from sources the packages which need compilation? (Yes/no/cancel)", and you can type 'yes'. After that, a bunch of lines of code will run with red font. Once this is done, copy and paste the `library(usethis)` line into your Console and click enter. 
 
 #### I’m getting an error message that rlang is not installed. 
 
@@ -131,19 +134,21 @@ In your console type `install.packages("rlang")`. Then re-try Step 7.
 
 #### I'm getting the following error when I try to set my git credentials:
 
-```Error in new_git_error("git_error", args = args, stdout = out, status = attr(out,  :
-  System git failed: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun```
+```
+Error in new_git_error("git_error", args = args, stdout = out, status = attr(out,  :
+  System git failed: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+```
   
 Switch to the Terminal tab in the bottom left hand corner of RStudio and enter the following:
 
 `xcode-select --install`
 
 Then try again. 
-  
+
+### Step 7, 10, etc. 
+
+#### I'm getting an error message that RStudio can't find Git.
+
+Following the instructions at this link: https://happygitwithr.com/rstudio-see-git to tell RStudio where to find git. 
 
 
-
-
-=======
-**CONGRATULATIONS! You've completed our course infrastructure set-up!** 
->>>>>>> 983264484fb3b9cef97fc73616b6fe8149a80dc4
