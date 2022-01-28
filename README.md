@@ -151,4 +151,23 @@ Then try again.
 
 Following the instructions at this link: https://happygitwithr.com/rstudio-see-git to tell RStudio where to find git. 
 
+### Step 
 
+I'm getting the following error:
+
+```
+Error in new_git_error("git_error", args = args, stdout = out, status = attr(out,  :
+  System git failed: fatal: bad config line ...
+```
+
+This means that you probably added some unrecognized characters in your git config file. 
+Enter:
+
+```
+library(usethis)
+edit_git_config
+```
+
+This will open your config file. Check to make sure you don't have extra quotation marks in your user name or email address. It should look something like this. 
+
+![RStudio Icon](images/config_file.png)
