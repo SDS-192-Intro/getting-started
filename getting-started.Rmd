@@ -6,6 +6,6 @@ output:
   sds::class_notes
 ---
 
-1. ====DELETE THIS TEXT AND ADD YOUR NAME HERE.===
+1. ====Valeria Bastardo===
 2. Save the document by clicking the Save button above. 
 3. Return to Getting Started instructions to learn how to commit and push you code. 
